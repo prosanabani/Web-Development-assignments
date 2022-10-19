@@ -42,12 +42,8 @@
 // (4) Write a JavaScript program to convert an given angle from degrees to radians.
 
 //  one degree = 0.0174533redian
-let input_number = prompt("what is the number : ")
-let input_process = prompt("what degree you want to convert to '1'for degree '2'for radian :")
-let process= "";
 
 
-switch (parseInt(input_process)) {
     
     case 1:
         process = "degree";
