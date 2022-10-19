@@ -27,12 +27,14 @@
 
 
 
-// let x ="hi there s yAu know";
-// let app=false;
-// let y =x.split("").map(function(e){
+
+
+// let x=[prompt("enter a string and we will tell wether it is a lowercase or not ")];
+
+// let y =x.map(function(e){
     
-//     (e === e.toLowerCase ? app=true : app=false )
-//     return app;  
+//     return(e === e.toLowerCase() ? true :false )
+      
 
 // })
 // console.log(y)
@@ -80,4 +82,4 @@
 
 //(5) Write a JavaScript program to get the current URL.
 
-console.log(document.URL)
+// console.log(document.URL)
