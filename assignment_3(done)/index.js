@@ -44,33 +44,34 @@
 //  one degree = 0.0174533redian
 
 
+
+// let input_number = prompt("what is the number : ")
+// let input_process = prompt("what degree you want to convert to '1'for degree '2'for radian :")
+// let process= "";
+
+
+// switch (parseInt(input_process)) {
     
-    case 1:
-        process = "degree";
-        converting(process,input_number)
-        break;
-    case 2:
-        process = "radian";
-        converting(process,input_number)
-        break;
-    default:
-        alert("please enter a either 1 or 2")
-        break;
-}
-function converting(process,number){
-    if(process == "degree"){
-        alert("in degree it is equal to " + number/0.0174533 );
-    }
-    else{
-        alert("in radian it is equal to " + number*0.0174533);
-    }
-}
-
-
-
-
-
-
+//     case 1:
+//         process = "degree";
+//         converting(process,input_number)
+//         break;
+//     case 2:
+//         process = "radian";
+//         converting(process,input_number)
+//         break;
+//     default:
+//         alert("please enter a either 1 or 2")
+//         break;
+// }
+// function converting(process,number){
+//     if(process == "degree"){
+//         alert("in degree it is equal to " + number/0.0174533 );
+//     }
+//     else{
+//         alert("in radian it is equal to " + number*0.0174533);
+//     }
+// }
 
 
 
@@ -79,4 +80,4 @@ function converting(process,number){
 
 //(5) Write a JavaScript program to get the current URL.
 
-// console.log(document.URL)
+console.log(document.URL)
